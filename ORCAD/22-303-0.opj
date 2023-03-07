@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/06/23]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/07/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -12,7 +12,23 @@
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
-    (Display_Online_DRC_Results "FALSE"))
+    (Display_Online_DRC_Results "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -31,19 +47,20 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\22-303-0.dsn")
-      (Path "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1"))
+      (Path "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1" "uC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 484 0 927"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 290 0 950"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1177 24 968")
-        (Scroll "9 -43")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 5 24 5 1371 24 968")
+        (Scroll "806 572")
+        (Zoom "224")
         (Occurrence "/"))
       (Path
          "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
@@ -52,22 +69,44 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1177 24 968")
-        (Scroll "0 -43")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 0 0 5 1371 24 968")
+        (Scroll "-46 0")
+        (Zoom "128")
         (Occurrence "/"))
       (Path
          "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M1"))
+      (Page "POWER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1177 24 968")
-        (Scroll "0 -43")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1371 24 968")
+        (Scroll "-35 -10")
+        (Zoom "108")
         (Occurrence "/"))
       (Path
          "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M4"))))
+      (Page "OPTO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1371 24 968")
+        (Scroll "-35 -10")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN-BUS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1371 24 968")
+        (Scroll "-35 -10")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SIGNAL_BUS"))))
