@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/30/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/12/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -10,12 +10,12 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
-    (DOCKING_POSITION "61215")
+    (DOCKING_POSITION "59420")
     (NoModify)
     (Display_Online_DRC_Results "FALSE")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "2")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -74,6 +74,9 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (E
       (FullPartName "E.Normal")
       (LibraryName "D:\UTENTI\00.LIBRERIE ORCAD\OC_CAPTURE\01.PRINCIPALE.OLB")
@@ -96,6 +99,6 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 1584 0 901"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 394 0 888"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))
