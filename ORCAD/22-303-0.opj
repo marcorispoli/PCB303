@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[07/09/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/12/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -15,7 +15,7 @@
     (Display_Online_DRC_Results "FALSE")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "2")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -89,178 +89,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\22-303-0.dsn")
-      (Path "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-303\orcad\22-303-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-303\orcad\22-303-0.dsn"
+         "SCHEMATIC1")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 275 0 888"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_CONNECTORS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "TUBE_TEMP"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-82 -8")
-        (Zoom "119")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "TEST_BUTTON"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "uC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-82 -8")
-        (Zoom "119")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "COMPONENT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-82 -8")
-        (Zoom "119")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "CAN-BUS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "COLLIMATION_LED"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M3"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M2"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M4"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M5"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M6"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 24 929")
-        (Scroll "-51 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MOTOR_M7")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 394 0 888"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false"))
