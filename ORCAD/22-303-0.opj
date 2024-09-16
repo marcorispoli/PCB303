@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/12/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/16/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -15,7 +15,7 @@
     (Display_Online_DRC_Results "FALSE")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "2")
+    (ANNOTATE_Action "0")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -85,20 +85,18 @@
       (FullPartName "CON2.Normal")
       (LibraryName "D:\UTENTI\00.LIBRERIE ORCAD\OC_CAPTURE\02.CONNETTORI.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "marco")
+  (MPSSessionName "user")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-303\orcad\22-303-0.dsn")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-303\orcad\22-303-0.dsn"
-         "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Design Resources" ".\22-303-0.dsn")
+      (Path "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1" "uC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 394 0 888"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 348 0 911"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))
