@@ -105,18 +105,18 @@
       (Path "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1" "OPTO_EXTERNAL"))
+      (Select "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1" "POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 417 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 911"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1457 24 929")
-        (Scroll "-102 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 929")
+        (Scroll "-210 -7")
         (Zoom "104")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB303\ORCAD\22-303-0.DSN")
