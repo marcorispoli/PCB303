@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/23/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[10/01/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -59,7 +59,61 @@
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE")
-    (FALSE))
+    (FALSE)
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "FALSE")
+    (DRC_Check_Off-Page_Connectors_Online "TRUE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.DRC"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\22-303-0.mnl"
@@ -67,6 +121,8 @@
     (File ".\22-303-0.bom"
       (Type "Report"))
     (File ".\pcb303_bom.bom"
+      (Type "Report"))
+    (File ".\22-303-0.drc"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -97,29 +153,24 @@
       (FullPartName "CON2.Normal")
       (LibraryName "D:\UTENTI\00.LIBRERIE ORCAD\OC_CAPTURE\02.CONNETTORI.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "user")
+  (MPSSessionName "marco")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\22-303-0.dsn")
-      (Path "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.dsn")
+      (Path "Design Resources"
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\22-303-0.dsn" "SCHEMATIC1" "POWER"))
+      (Select "Design Resources"
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-303\ORCAD\22-303-0.dsn"
+         "SCHEMATIC1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 911"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 929")
-        (Scroll "-210 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB303\ORCAD\22-303-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OPTO_EXTERNAL")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 387 0 613"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false"))
