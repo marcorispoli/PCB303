@@ -1,9 +1,9 @@
 {Program	GerbTool for Layout
 	{Version	8.0}
-	{Created	Sun Apr 09 12:29:44 2023}
+	{Created	Tue Oct 08 21:54:12 2024}
 }
 {Environment
-	{FilesPath  D:\UTENTI\00.CAD\00.PROGETTI\METALTRONICA\22-303-0 (CONTROLLO COLLIMATORE)}
+	{FilesPath  D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-303-0}
 }
 {Layers
 	{Layer  1
@@ -25,15 +25,6 @@
 		{Type        Plane}
 	}
 	{Layer  3
-		{File        22-303-0.PWR}
-		{LyrName     -}
-		{ApList      }
-		{Visibility  On}
-		{FlashColor  vga16green}
-		{DrawColor   vga16green}
-		{Type        Plane}
-	}
-	{Layer  4
 		{File        22-303-0.IN1}
 		{LyrName     -}
 		{ApList      }
@@ -42,16 +33,7 @@
 		{DrawColor   Cyan}
 		{Type        Inner}
 	}
-	{Layer  5
-		{File        22-303-0.IN2}
-		{LyrName     -}
-		{ApList      }
-		{Visibility  On}
-		{FlashColor  Blue}
-		{DrawColor   Blue}
-		{Type        Inner}
-	}
-	{Layer  6
+	{Layer  4
 		{File        22-303-0.BOT}
 		{LyrName     -}
 		{ApList      }
@@ -60,7 +42,7 @@
 		{DrawColor   Red}
 		{Type        Bottom}
 	}
-	{Layer  7
+	{Layer  5
 		{File        22-303-0.SMT}
 		{LyrName     -}
 		{ApList      }
@@ -69,7 +51,7 @@
 		{DrawColor   Magenta}
 		{Type        Other}
 	}
-	{Layer  8
+	{Layer  6
 		{File        22-303-0.SMB}
 		{LyrName     -}
 		{ApList      }
@@ -78,7 +60,7 @@
 		{DrawColor   vga16yellow}
 		{Type        Other}
 	}
-	{Layer  9
+	{Layer  7
 		{File        22-303-0.SPT}
 		{LyrName     -}
 		{ApList      }
@@ -87,7 +69,7 @@
 		{DrawColor   vga16cyan}
 		{Type        Other}
 	}
-	{Layer  10
+	{Layer  8
 		{File        22-303-0.SPB}
 		{LyrName     -}
 		{ApList      }
@@ -96,7 +78,7 @@
 		{DrawColor   vga16red}
 		{Type        Other}
 	}
-	{Layer  11
+	{Layer  9
 		{File        22-303-0.SST}
 		{LyrName     -}
 		{ApList      }
@@ -105,13 +87,31 @@
 		{DrawColor   White}
 		{Type        Other}
 	}
-	{Layer  12
+	{Layer  10
 		{File        22-303-0.SSB}
 		{LyrName     -}
 		{ApList      }
 		{Visibility  On}
 		{FlashColor  Yellow}
 		{DrawColor   Yellow}
+		{Type        Other}
+	}
+	{Layer  11
+		{File        22-303-0.AST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
+	}
+	{Layer  12
+		{File        22-303-0.ASB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Cyan}
+		{DrawColor   Cyan}
 		{Type        Other}
 	}
 	{Layer  13
@@ -121,6 +121,15 @@
 		{Visibility  On}
 		{FlashColor  Red}
 		{DrawColor   Red}
+		{Type        Other}
+	}
+	{Layer  14
+		{File        22-303-0.DRL}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16red}
+		{DrawColor   vga16red}
 		{Type        Other}
 	}
 }
